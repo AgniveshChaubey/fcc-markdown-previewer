@@ -1,12 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { Badge } from 'react-bootstrap';
 
 const MarkdownPreviewer = () => {
-  return (
-    <div>
-        <textarea name="editor" id="editor" cols="30" rows="10"></textarea>
+    return (
+        <div className="col text-center">
+            <h4>
+                <Badge className='' varient='secondary' color='secondary'>
+                    Markdown Preview
+                    
+                </Badge>
+            </h4>
+        </div>
         
-    </div>
-  )
+    )
 }
 
 export default MarkdownPreviewer
